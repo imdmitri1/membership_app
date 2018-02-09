@@ -20,7 +20,8 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use bootstrap for styles
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '3.3.7'
+gem 'jquery-rails'
 
 
 # Use CoffeeScript for .coffee assets and views
