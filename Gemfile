@@ -19,15 +19,11 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use bootstrap for styles
-# gem 'bootstrap-sass', '3.3.7'
-# gem 'jquery-rails'
-
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
-# gem 'json', github: 'flori/json', branch: 'v1.8'
 gem 'popper_js', '~> 1.12.9'
+gem 'font-awesome-sass', '~> 5.0.6'
 
 
 # Use CoffeeScript for .coffee assets and views
