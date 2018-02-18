@@ -27,6 +27,7 @@ gem 'font-awesome-sass', '~> 5.0.6'
 
 gem 'sendgrid-ruby'
 
+gem 'devise', '~> 4.2'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
