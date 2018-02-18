@@ -16,7 +16,7 @@
           <li>Email support</li>
           <li>Help center access</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-outline-primary">Sign up for free</button>
+        <%= link_to 'Sign up for free', new_user_registration_path(plan: @basic_plan.id), class:'btn btn-lg btn-outline-primary' %>
       </div>
     </div>
     <div class="card mb-4 box-shadow">
@@ -30,7 +30,7 @@
           <li>Priority email support</li>
           <li>Help center access</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-primary">Get started</button>
+        <%= link_to 'Get started', new_user_registration_path(plan: @pro_plan.id), class:'btn btn-lg btn-primary' %>
       </div>
     </div>
   </div>
