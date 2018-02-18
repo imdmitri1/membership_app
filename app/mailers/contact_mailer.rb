@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default to: email.ds@protonmail.com
+  default to: 'email.ds@protonmail.com'
 
   def contact_email(name, email, body)
     @name = name
@@ -9,4 +9,4 @@ class ContactMailer < ActionMailer::Base
     mail(from: email, subject: "Contact from MembershipApp")
   end
 
-end 
+end
