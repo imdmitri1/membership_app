@@ -25,6 +25,8 @@ gem 'jquery-rails'
 gem 'popper_js', '~> 1.12.9'
 gem 'font-awesome-sass', '~> 5.0.6'
 
+gem 'sendgrid-ruby'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
