@@ -24,12 +24,24 @@
               <!-- <a class="nav-link" href="#">Pricing<span class="sr-only">(current)</span></a> -->
             </li>
             <li class="nav-item">
-              <!-- <a class="nav-link" href="#">Features</a> -->
               <%= link_to 'Contact us', new_contact_path, class:'nav-link' %>
             </li>
             <li class="nav-item">
               <%= link_to 'About', about_path, class: 'nav-link'%>
             </li>
+            <% if current_user %>
+              <li class="nav-item">
+                <!-- <%= link_to 'About', about_path, class: 'nav-link'%> -->
+                <%= link_to 'Log out', destroy_user_session_path, method: :delete, class:'nav-link' %>
+              </li>
+            <% else %>
+              <li class="nav-item">
+                <%= link_to 'Log in', new_user_session_path, method: :get, class:'nav-link'%>
+              </li>
+              <li class="nav-item">
+                <%= link_to 'Sign up', new_user_registration_path, method: :get, class:'nav-link'  %>
+              </li>
+            <% end %>
           </ul>
         </div>
       </div>
