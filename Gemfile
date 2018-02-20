@@ -31,7 +31,7 @@ gem 'sendgrid-ruby'
 gem 'devise', '~> 4.2'
 
 gem 'stripe', '~> 1.57'
-gem 'figaro', '~> 1.1'
+gem 'figaro', '1.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
